@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Profile card</title>
+</head>
+<body>
+    <div class="top-strip"></div>
+    <div class="profile-container">
+        <div class="profile-card">
+            <div class="circle circle-1"></div>
+            <div class=" circle  circle-2"></div>
+            <div class="like-share-icons">
+               <img src="./Like-btn.svg" alt="" id="like">
+                    
+                <img src="./share-icon.svg" alt="" id="share" onclick = "navigator.share({url:location.href})" />
+                <!-- <img src="./share-icon.svg" alt="" id="share" onclick = "navigator.share({url:`https://www.google.com/`})" /> -->
+            </div>
+            <div class="profile-content">
+               <div class="avatar-container">
+                <img src="./profile1.jpg" alt="avatar" class="avatar">
+                <div class="online"></div>
+               </div>
+                <h3 class="card-heading">Muskan Dodmani</h3>
+                <p class="card-subtitle">Frontend Developer</p>
+                <a href="#" class="view-profile">View Full Profile</a>
+                <div class="social-media-icons">
+                    <a href="https://www.linkedin.com/in/muskan-dodmani/" class="social-media-icon"><img src="./linkedin.svg" alt="linkedin" ></a>
+                    <a href="https://x.com/MuskanDodmani" class="social-media-icon"><img src="./twitter.svg" alt="twitter" ></a>
+                    <a href="#" class="social-media-icon"><img src="./telegram.svg" alt="telegram" ></a>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="bottom-strip"></div>
+</body>
+</html>
